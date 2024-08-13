@@ -1,0 +1,244 @@
+*{
+    
+}
+.navbar{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.navbar img{
+    background-color:white;
+    border-radius: 50%;
+    
+}
+.navbar .nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .nav-item a:hover{
+        color: rgb(255, 166, 0);
+}
+
+.gymbody{
+    background-color: black;
+    height: 600px;
+    border: none;
+}
+.gymbody1 h1{
+    color: rgb(255, 166, 0);
+    font-weight: 800;
+    font-family: vazirmath;
+
+}
+.gymbody1 h2{
+    color: white;
+    margin-top: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+.gymbody1 h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gymbody1 p{
+    color: white;
+    
+}
+.gymbody1 button{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    
+}
+.gymbody1 button:hover{
+    background-color: white;
+    color: black;
+}
+/* @media only screen and (max-width:900px)  {
+    .body{
+    
+    }    
+    .gymbody1 h1{
+        font-size: 30px;
+    }
+    .gymbody1 h2{
+        font-size: 22px;
+    }
+    .gymbody1 h3{
+        font-size: 22px;
+    }
+    .gymbody1 p{
+        font-size: 15px;
+    }
+} */
+
+/* md screen */
+@media only screen and (max-width:700px)  {
+     
+    .navbar img{
+        width: 10%;
+    }
+    .gymbody1 h1{
+        font-size: 40px;
+    }
+    .gymbody1 h2{
+        font-size: 32px;
+    }
+    .gymbody1 h3{
+        font-size: 30px;
+    }
+    .gymbody1 p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:536px)  {
+    .body{
+    
+    }    
+    .gymbody1 h1{
+        font-size: 25px;
+    }
+    .gymbody1 h2{
+        font-size: 30px;
+    }
+    .gymbody1 h3{
+        font-size: 23px;
+    }
+    .gymbody1 p{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+
+
+/* about */
+.about{
+    background-color: black;
+ 
+ 
+}
+.about1 img{
+    opacity: 0.9;
+}
+.about2 h2{
+    color: orange;
+    text-align: center;
+    font-weight: 700;
+}
+.about2 p{
+    color: white;
+}
+.about2 ul li{
+    color: white;
+}
+.about2 button{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    border-radius: 5px;
+    
+}
+.about2 button:hover{
+    background-color: white;
+    color: black;
+}
+.gallery{
+    background-color: black;
+}
+.galtext h1{
+    color: orange;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: poppins;
+    
+}
+.gallery img{
+    width: 70%;
+    height: 350px;
+    border-radius: 5px;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid white;
+    border-left: 2px solid orange;
+    border-right: 2px solid white;
+    
+}
+.gallery #img1{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+.gallery #img2{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+.gallery img:hover{
+    border: none;
+}
+.video{
+    background-color: black;
+}
+.video .text  h1{
+    font-size: 32px;
+    color: orange;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 700;
+    border-bottom: 2px solid orange;
+
+}
+.personaltrainer{
+    background-color: black;
+}
+.personaltext h2{
+    color: orange;
+    font-family: poppins;
+}
+.personaltrainer p{
+    color: white;
+}
+.personaltrainer h1{
+    color: orange;
+}
+.personaltrainer button{
+    background-color: orange;
+    color: white;
+}
+.personaltrainer h4{
+    color: orange;
+}
+/* .personaltrainer button:hover{
+    background-color: white;
+    color: black;
+} */
+ .contactform{
+    background-color: black;
+ }
+ .contactform label{
+    color: white;
+ }
+ 
+ /* .contactform input{
+    background-color: rgba(255, 166, 0, 0.921);
+ }
+ .contactform textarea{
+    background-color: orange;
+ }
+ .contactform button{
+    background-color: orange;
+ } */
+
+ @media only screen and (max-width:500px)  {
+  .contactform2  .form-control{
+    width: 300px;
+  }
+}
